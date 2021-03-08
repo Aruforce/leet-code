@@ -1,6 +1,6 @@
 package com.aruforce.array;
 
-import java.util.Arrays;
+import java.util.*;
 
 /**
  * 原地删除已排序数组中的重复元素
@@ -21,4 +21,5 @@ public class Q189 {
             System.arraycopy(ints, 0, nums, 0, true_move);
         }
     }
+
 }
